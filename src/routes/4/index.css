@@ -1,0 +1,107 @@
+.flex {
+  display: flex;
+}
+
+.app {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background: #46556a;
+  justify-content: center;
+  height: 65px;
+}
+
+.app img {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  top: 4px;
+}
+
+.separator {
+  background: white;
+  height: 24px;
+  border-bottom: 1 solid #f0f0f0;
+}
+
+.stats {
+  background: #616e7e;
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(60% - 240px);
+  margin: 0 auto;
+  color: white;
+  padding: 30px 120px;
+}
+
+.stats .flex {
+  align-items: center;
+}
+
+.stats svg {
+  margin-left: 8px;
+}
+
+.text {
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 24px;
+  font-size: 24px;
+  color: #616e7e;
+}
+
+.text span {
+  color: #111111;
+}
+
+.nice {
+  color: #616e7e;
+  font-size: 36px;
+  font-weight: 400;
+  max-width: 60%;
+  margin: 24px auto;
+}
+
+.genre {
+  max-width: calc(60% - 32px);
+  background: white;
+  margin: 0 auto 16px;
+  padding: 0 16px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  color: #595959;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.genre svg {
+  margin-right: 8px;
+}
+
+.toolbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar h1 {
+  font-weight: 400;
+  margin: 0;
+  line-height: 50px;
+}
+
+.toolbar .link {
+  align-items: center;
+}
+
+.toolbar svg {
+  margin-right: 24px;
+}
+
+.toolbar p {
+  margin-right: 24px;
+}
+
+.toolbar h1 {
+  margin-left: 24px;
+}

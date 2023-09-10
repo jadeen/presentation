@@ -1,0 +1,22 @@
+.center {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.passions {
+  display: flex;
+}
+
+.passion {
+  background: white;
+  color: black;
+  border-radius: 8px;
+}
+
+.passion p {
+  padding: 0 8px;
+}

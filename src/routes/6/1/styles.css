@@ -1,0 +1,24 @@
+.fautes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fautes .flex {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.fautes h3 {
+    font-size: 22px;
+}
+
+.fautes img {
+    margin-right: 24px;
+}
+.fautes p {
+    font-size: 18px;
+}

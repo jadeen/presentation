@@ -1,0 +1,45 @@
+.ecole {
+    border-radius: 8px;
+    background: white;
+    padding: 24px;
+    color: black;
+    font-family: arial;
+}
+
+.center {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecole p {
+    margin: 8px 0 0 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.laval {
+    margin-left: 64px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.answer .flex {
+    padding: 56px;
+    align-items: center;
+}
+
+.answer img {
+    margin-right: 16px;
+}
+
+.answer p {
+    font-size: 20px;
+    font-weight: 600;
+}

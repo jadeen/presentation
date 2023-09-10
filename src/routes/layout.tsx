@@ -49,6 +49,14 @@ const keyboardHandler = (event: any, nav: any) => {
 
     return;
   }
+
+  if (event.key === 'ArrowDown') {
+    const path = parseInt(routes[2] || '0')
+
+    const newPath = path + 1;
+
+    nav(`/${routes[1]}/${newPath}`);
+  }
 }
 
 export default component$(() => {
@@ -76,7 +84,7 @@ export default component$(() => {
         { routes.length > 1 && <>
           <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36" fill="currentColor"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
         </> }
-       <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36" fill="currentColor"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36" fill="currentColor"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
       </div>
     </>
   );

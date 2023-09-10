@@ -1,0 +1,36 @@
+.center {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro h1 {
+    padding: 0 24px;
+}
+
+.step {
+    background: white;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    margin: 0 24px 16px;
+
+}
+
+
+.step h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.step img {
+    background: #f2f2f2;
+    border-radius: 8px;
+    padding: 4px;
+    margin-left: 8px;
+}
