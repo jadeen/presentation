@@ -1,0 +1,28 @@
+.content-ending {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-ending .card-ending {
+  background: white;
+  box-shadow: rgba(fff, fff, fff, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+  color: black;
+  height: 200px;
+  width: 300px;
+  font-family: Comic Sans MS;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ending {
+  width: 100vw;
+  height: 100vh;
+}
