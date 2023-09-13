@@ -1,0 +1,17 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.anecdote {
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    position: absolute;
+    color: black;
+    right: 15%;
+}

@@ -1,0 +1,18 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.identite {
+    display: flex;
+    align-items: center;
+}
+
+.identite p {
+    margin-left: 24px;
+    font-size: 20px;
+}

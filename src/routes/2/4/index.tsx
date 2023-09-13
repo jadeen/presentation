@@ -12,7 +12,7 @@ export default component$(() => {
   })
 
   return <div class="pro">
-    <h1>Professionnal</h1>
+    <h1>Pro</h1>
     <div class="content">
 
       <div class="step">

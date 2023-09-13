@@ -12,7 +12,7 @@ export default component$(() => {
   })
 
   return <div class="pro">
-    <h1>Professionnal</h1>
+    <h1>Pro</h1>
     <div class="content">
 
       <div class="step">
@@ -24,7 +24,7 @@ export default component$(() => {
       </div>
 
       <div class="step">
-        <h2>Stage Inthreat à rythme alternée (Septembre 2017/Fevrier 2018)</h2>
+        <h2>Stage à rythme alternée (Septembre 2017/Fevrier 2018)</h2>
 
         <div>
           <img width="48" height="48" src="/dedimisp.svg" alt="logo" />
